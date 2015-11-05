@@ -31,7 +31,7 @@ import com.xinwei.smallvideoui.R;
  * 基类Activity
  * 
  * <p>
- * 基类Activity
+ * 测试下修改成功
  * </p>
  * 
  * @author duanbokan
