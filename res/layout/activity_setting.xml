@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xinwei.smallvideo.widget.scrollview.OverScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:paddingBottom="100dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_activity_setting"
+            android:textColor="#ff607d8b" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/activity_setting_verturl_line" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/setting_item_bg"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/setting_item_up_bg_selector"
+                    android:text="@string/setting_activity_auto_update"
+                    android:textColor="@color/actionbar_color_2"
+                    android:textSize="15sp" />
+
+                <ToggleButton
+                    android:id="@+id/auto_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:button="@drawable/setting_activity_selector_toggle_button"
+                    android:tag="auto_play"
+                    android:textOff=""
+                    android:textOn="" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:background="#33000000" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/setting_item_up_bg_selector"
+                    android:text="@string/setting_activity_auto_update_wifi"
+                    android:textColor="@color/actionbar_color_2"
+                    android:textSize="15sp" />
+
+                <ToggleButton
+                    android:id="@+id/prompt__not_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:button="@drawable/setting_activity_selector_toggle_button"
+                    android:tag="prompt_not_wifi"
+                    android:textOff=""
+                    android:textOn="" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:id="@+id/clear_cache"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_bottom_bg_selector"
+                android:drawableRight="@drawable/fragment_my_list_item_enter_icon"
+                android:padding="15dp"
+                android:text="@string/setting_activity_clear_session"
+                android:textColor="@color/actionbar_color_2"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/setting_activity_interaction"
+            android:textColor="@color/actionbar_color_2" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/activity_setting_verturl_line" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/setting_item_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/remmend_firend"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_up_bg_selector"
+                android:drawableRight="@drawable/fragment_my_list_item_enter_icon"
+                android:padding="15dp"
+                android:text="@string/setting_activity_share_friends"
+                android:textColor="@color/actionbar_color_2"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:id="@+id/assess"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_middle_bg_selector"
+                android:drawableRight="@drawable/fragment_my_list_item_enter_icon"
+                android:padding="15dp"
+                android:text="@string/setting_activity_give_star"
+                android:textColor="@color/actionbar_color_2"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:background="#33000000" />
+
+            <TextView
+                android:id="@+id/feedback"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_item_bottom_bg_selector"
+                android:drawableRight="@drawable/fragment_my_list_item_enter_icon"
+                android:padding="15dp"
+                android:text="@string/setting_activity_your_action"
+                android:textColor="@color/actionbar_color_2"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/setting_activity_about_us"
+            android:textColor="@color/actionbar_color_2" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/activity_setting_verturl_line" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/setting_item_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_activity_about_us_email"
+                    android:textColor="@color/actionbar_color_2"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_activity_about_us_email_content"
+                    android:textColor="@color/actionbar_color_2"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:background="#33000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_activity_about_us_qq"
+                    android:textColor="@color/actionbar_color_2"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_activity_about_us_qq_content"
+                    android:textColor="@color/actionbar_color_2"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:background="#33000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_activity_about_us_address"
+                    android:textColor="@color/actionbar_color_2"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_activity_about_us_address_content"
+                    android:textColor="@color/actionbar_color_2"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.xinwei.smallvideo.widget.scrollview.OverScrollView>

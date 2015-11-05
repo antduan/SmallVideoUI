@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base -->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#E34F1B</color>
+
+    <!-- MainPage -->
+    <color name="main_page_action_bar_color">#FF4DD298</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="main_page_bottom_text_color">#AAAAAA</color>
+
+    <!-- left slide head -->
+    <color name="main_page_slide_head_back">#FF40Ad7e</color>
+    <color name="main_page_slide_item_click_color">#993dc1c5</color>
+
+    <!-- Loading Page bg color -->
+    <color name="loading_page_back_ground_color">#ffffffff</color>
+
+    <!-- Other -->
+    <color name="actionbar_color_2">#ff607d8b</color>
+    <color name="tab_bg">#993dc1c5</color>
+    <color name="actionbar_color">#FF4DD298</color>
+
+</resources>

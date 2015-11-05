@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_pager_tab_height">40dp</dimen>
+
+    <!-- MainPage Slide Title -->
+    <dimen name="ldrawer_drawableSize">50.0dip</dimen>
+    <dimen name="ldrawer_barSize">18.0dip</dimen>
+    <dimen name="ldrawer_topBottomBarArrowSize">11.0dip</dimen>
+    <dimen name="ldrawer_thickness">2.0dip</dimen>
+    <dimen name="ldrawer_gapBetweenBars">3.0dip</dimen>
+    <dimen name="ldrawer_middleBarArrowSize">16.0dip</dimen>
+
+    <!-- 左侧画出界面头 -->
+    <dimen name="main_pager_slider_head_height">200dp</dimen>
+
+    <!-- 导航抽屉宽度 -->
+    <dimen name="navdrawer_width">250dp</dimen>
+
+    <!-- ListView -->
+    <dimen name="list_item_loadmore_padding">5dp</dimen>
+    <dimen name="list_item_loadmore_height">55dp</dimen>
+    <dimen name="list_item_margin">9dp</dimen>
+
+    <!-- 主界面ListView每一个项目 -->
+    <dimen name="main_page_list_item_icon_width">30dp</dimen>
+    <dimen name="main_page_list_item_icon_height">30dp</dimen>
+    <dimen name="main_page_list_item_user_icon_width">80dp</dimen>
+    <dimen name="main_page_list_item_user_icon_height">80dp</dimen>
+
+</resources>

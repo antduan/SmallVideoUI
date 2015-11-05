@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">发作</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- MainPage -->
+    <string name="main_page_drawer_open">open</string>
+    <string name="main_page_drawer_close">close</string>
+    <string name="drawer_list_header_hi">Hi 朋友</string>
+    <string name="drawer_list_header_stay_time">你已经在这里呆了一万年了.</string>
+    <string name="main_page_bottom_tab_home">主页</string>
+    <string name="main_page_bottom_tab_hot_rank">热门</string>
+    <string name="main_page_bottom_tab_message">消息</string>
+    <string name="main_page_bottom_tab_my">我的</string>
+
+    <!-- 左侧画出界面 -->
+    <string name="main_page_slide_head_text_hi">Hi</string>
+    <string name="main_page_slide_head_text_content">哇，上边这个头像好漂亮.</string>
+
+    <string-array name="main_page_tabs_title_name">
+        <item>主页</item>
+        <item>分类</item>
+        <item>发作</item>
+        <item>消息</item>
+        <item>我的</item>
+    </string-array>
+
+    <!-- Loading Dialog -->
+    <string name="loading_dialog_loading">正在拼命加载中。。</string>
+    <string name="loading_dialog_empty">亲~暂时没有数据哟!</string>
+
+    <!-- ListView加载 -->
+    <string name="list_view_load_more">正在拼命加载</string>
+    <string name="list_view_load_error">小的加载失败了。。</string>
+
+    <!-- 设置界面 -->
+    <string name="setting_activity_setting">设置</string>
+    <string name="setting_activity_auto_update">自动更新</string>
+    <string name="setting_activity_auto_update_wifi">仅在Wifi下自动更新</string>
+    <string name="setting_activity_clear_session">清除缓存</string>
+    <string name="setting_activity_interaction">互动</string>
+    <string name="setting_activity_share_friends">推荐好友</string>
+    <string name="setting_activity_give_star">赏个好评</string>
+    <string name="setting_activity_your_action">意见反馈</string>
+    <string name="setting_activity_about_us">关于我们</string>
+    <string name="setting_activity_about_us_email">Email:</string>
+    <string name="setting_activity_about_us_email_content">duanbokan@126.com</string>
+    <string name="setting_activity_about_us_qq">QQ:</string>
+    <string name="setting_activity_about_us_qq_content">632554181</string>
+    <string name="setting_activity_about_us_address">地址：</string>
+    <string name="setting_activity_about_us_address_content">这个就是地址</string>
+
+    <!-- 我的界面 -->
+    <string name="fragment_my_list_head_friends">好友</string>
+    <string name="fragment_my_list_head_focus">关注</string>
+    <string name="fragment_my_list_head_works">作品</string>
+
+    <!-- 登陆界面 -->
+    <string name="activity_login_select_country_code_erro">国家码错误</string>
+    <string name="activity_login_select_form_list">从列表选择</string>
+
+</resources>
